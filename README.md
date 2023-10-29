@@ -19,3 +19,5 @@ The MazeGame class is the “main” class used for implementing most of the gam
 - There are sound effects for flourish: when you hit a wall, when you win, when you lose, and when you start up the game
 
 Our game implements a playSound method utilizing the javax.sound.sampled imports which searches for a file containing the specific .wav file to play a sound. Our project game plays the Family Feud ‘Ding!’ sound on start up (and has a fun little button to just keep playing it). It also has a hit marker sound when colliding with something, plus a victory and loser theme when either happens. The sound files seem to inconsistently work across different devices, but it does for sure work on the computer the sound methods were built on, so if needed, we can record a video showing that it works on our end. The user will have to download the wav files and store them in the project folder in another folder specifically named “SoundFiles” otherwise the sound doesn't work. In the situation where the audio cannot be played, it will enter a catch throw and display an error message to the user.
+
+Done in collaboration with Matthew Fortes and Alan Jimenez
