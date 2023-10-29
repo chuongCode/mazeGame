@@ -9,6 +9,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.Rectangle;
 
+// file meant for just defining and drawing the player square
 public class mazeMaker extends Rectangle {
 	
 	int x;
