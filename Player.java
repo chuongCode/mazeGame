@@ -10,6 +10,7 @@ import java.util.Random;
 import java.awt.Image;
 import java.awt.Rectangle;
 
+// basically the player is a square with some complicated hitboxes
 public class Player extends Rectangle {
 	private int dx, dy;
 	
