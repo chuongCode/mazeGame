@@ -9,7 +9,7 @@ import javax.swing.*;
 
 import java.util.Random;
 
-
+// this contains all of the game functionality
 public class mazeGame extends JPanel implements ActionListener, KeyListener {
 	
 	public mazeGame() {
