@@ -270,7 +270,8 @@ public class mazeGame extends JPanel implements ActionListener, KeyListener {
         playSound("\\SoundFiles\\Final Fantasy Victory Fanfare - Sound Effect [HQ].wav");
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 	}
-	
+
+	//screw java's system for playing sound. this for some reason worked on my system, but it VERY inconsistently translated to other devices
 	private static void playSound(String soundFile) {
 	    File f = new File("./" + soundFile);
 	    try {
